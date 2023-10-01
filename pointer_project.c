@@ -46,7 +46,7 @@ int main(void) {
         // 총 경과 시간
         printf("clock() = %ld\n", clock());
 
-        totalElapsedTime = (clock() - startTime) / 100;
+        totalElapsedTime = (clock() - startTime) / 1000;
         printf("총 경과 시간 : %ld 초\n", totalElapsedTime);
 
         // 마지막으로 물 준 시간 이후로 흐른 시간
